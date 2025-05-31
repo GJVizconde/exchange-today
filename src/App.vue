@@ -58,7 +58,7 @@ const formattedBs = computed(() => {
     <!-- Logo -->
     <div class="mb-6 flex flex-col items-center">
       <img src="/logo.jpg" alt="Freddy Torres" class="w-24 h-24 rounded-full object-cover mb-2" />
-      <h1 class="text-xl font-semibold">Lucy Perez Today</h1>
+      <h1 class="text-xl font-semibold">Lucy Dacnira Perez Rodriguez Today 26676135</h1>
     </div>
 
     <!-- Card -->
