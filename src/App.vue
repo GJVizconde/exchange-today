@@ -57,8 +57,8 @@ const formattedBs = computed(() => {
   <div class="min-h-screen w-screen bg-black text-white flex flex-col items-center justify-center px-4 py-6">
     <!-- Logo -->
     <div class="mb-6 flex flex-col items-center">
-      <img src="/logo.jpg" alt="Freddy Torres" class="w-24 h-24 rounded-full object-cover mb-2" />
-      <h1 class="text-xl font-semibold">Freddy Torres Today</h1>
+      <!-- <img src="/logo.jpg" alt="Freddy Torres" class="w-24 h-24 rounded-full object-cover mb-2" /> -->
+      <h1 class="text-xl font-semibold">Lucy Perez Today</h1>
     </div>
 
     <!-- Card -->
