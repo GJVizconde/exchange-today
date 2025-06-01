@@ -39,19 +39,15 @@ onMounted(async () => {
 })
 
 const formattedBs = computed(() => {
-  if (dollars.value) {
-    const raw = dollars.value * averagePrice.value
-    return new Intl.NumberFormat('es-VE', {
-      style: 'decimal',
-      minimumFractionDigits: 2,
-      maximumFractionDigits: 2,
-      useGrouping: true
-    }).format(raw)
-  } else {
-    throw new Error(`No parameters`)
-  }
+  if (dollars.value === null || isNaN(dollars.value)) return 0
+  const raw = dollars.value * averagePrice.value
+  return new Intl.NumberFormat('es-VE', {
+    style: 'decimal',
+    minimumFractionDigits: 2,
+    maximumFractionDigits: 2,
+    useGrouping: true
+  }).format(raw)
 })
-
 
 </script>
 
